@@ -19,6 +19,6 @@ jobs:
 
       - name: Build the hello-docker Docker image
         run: |
-          docker build . --tag ghcr.io/blackgirlbytes/hello-docker-gcr-demo:latest
-          docker run ghcr.io/blackgirlbytes/hello-docker-gcr-demo:latest
-          docker push ghcr.io/blackgirlbytes/hello-docker-gcr-demo:latest
+          docker build . --tag ghcr.io/suzannebecker-toast/hello-docker-gcr-demo:latest
+          docker run ghcr.io/suzannebecker-toast/hello-docker-gcr-demo:latest
+          docker push ghcr.io/suzannebecker-toast/hello-docker-gcr-demo:latest
