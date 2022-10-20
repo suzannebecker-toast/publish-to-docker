@@ -1,1 +1,2 @@
-Learning to publish to docker
+Learning to publish to docker!
+
